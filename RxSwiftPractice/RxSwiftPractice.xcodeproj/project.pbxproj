@@ -28,6 +28,9 @@
 		A5B7C21C2816446A002C67CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5B7C21E2816446A002C67CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5B7C2242816452B002C67CB /* Observable.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observable.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A5B7C22528164F79002C67CB /* Traits.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Traits.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A5B7C2262816EDE3002C67CB /* Subjects.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Subjects.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		A5B7C22728170300002C67CB /* FilteringOperators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FilteringOperators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		EC28AE889B10B7028470B1E8 /* Pods-RxSwiftPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftPractice.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftPractice/Pods-RxSwiftPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				A5B7C2242816452B002C67CB /* Observable.playground */,
+				A5B7C22528164F79002C67CB /* Traits.playground */,
+				A5B7C2262816EDE3002C67CB /* Subjects.playground */,
+				A5B7C22728170300002C67CB /* FilteringOperators.playground */,
 				A5B7C20F28164469002C67CB /* RxSwiftPractice */,
 				A5B7C20E28164469002C67CB /* Products */,
 				1C397BE4E43B502909E6CE79 /* Pods */,
