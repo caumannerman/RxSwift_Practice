@@ -1,6 +1,6 @@
 # RxSwift_Practice
 
-## 1. Observable => rx의 근간, 구독되기 전에는 아무런 이벤트도 내보내지 않고 그거 정의일 뿐이다.
+## 1. Observable => rx의 근간, subscribe되기 전에는 아무런 이벤트도 내보내지 않고 그저 정의일 뿐이다.
 
 - 1. Just => 오직 지정된 타입의 element "하나만" 방출하는 Observable Sequence를 생성 
 <img width="241" alt="스크린샷 2022-04-26 오후 5 08 37" src="https://user-images.githubusercontent.com/75043852/165253044-a1c9b7f0-4d70-4f7a-a601-8d4b191e7355.png">
