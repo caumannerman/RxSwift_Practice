@@ -39,3 +39,12 @@ empty는 completed만 방출, never는 아무 이벤트도 방출하지 않는�
 <img width="410" alt="스크린샷 2022-04-26 오후 6 10 18" src="https://user-images.githubusercontent.com/75043852/165265511-7e7bd33b-6bdf-4da8-a825-6a0d6c263677.png">
 <img width="175" alt="스크린샷 2022-04-26 오후 6 10 29" src="https://user-images.githubusercontent.com/75043852/165265548-1104c5a0-2421-4d41-859e-66dd4178c6c7.png">
 
+# 2. Traits ( Single, Maybe, Completable ) => 더 좁은 범위의 Observable. 간결한 코드로 가독성을 좋게 해줌 
+
+# 3. Subject : Observable이자 Observer 
+- 1. PublishSubject : 빈 상태로 시작하여 새 값만들 subscriber에 방출
+- 1. BahaviorSubject : 하나의 초기값을 가지고 시작, 새로운 subscriber에 초기값 또는 최신값을 방출
+- 1. ReplaySubject : 버퍼를 두고 초기화하며, 버퍼 사이즈만큼의 값들을 유지하면서 새로운 subscriber에게 방출 
+
+
+
